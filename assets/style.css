@@ -1,0 +1,142 @@
+@font-face {
+    font-family: wedding;
+    src: url("font/Ocean\ Summer.ttf");
+}
+
+@font-face {
+    font-family: nama;
+    src: url("font/Elizabella.ttf");
+}
+
+@font-face {
+    font-family: arab;
+    src: url("font/UTHMANTN1B\ VER10_0.OTF");
+}
+
+p.bismillah {
+    font-family: 'arab';
+    font-size: 20pt;
+    font-variant: inherit;
+    color: #000000;
+}
+
+p.isi {
+    font-family: 'roboto';
+    font-size: 10pt;
+    font-variant: inherit;
+    color: #000000;
+}
+h4.isi {
+    font-family: 'roboto';
+    font-size: 10pt;
+    font-variant: inherit;
+    color: #000000;
+}
+td.isi {
+    font-family: 'roboto';
+    font-size: 10pt;
+    font-variant: inherit;
+    color: #000000;
+}
+
+td.salam {
+    font-family: 'arial';
+    font-size: 10pt;
+    font-variant: inherit;
+    color: #000000;
+}
+
+p.salam {
+    font-family: 'arial';
+    font-size: 10pt;
+    font-variant: inherit;
+    color: #000000;
+}
+
+h4.acara {
+    font-family: 'nama';
+    font-size: 20pt;
+    font-variant: inherit;
+    color: #000000;
+}
+h3.wedding {
+    font-family: 'nama';
+    font-size: 30pt;
+    font-variant: inherit;
+    color: #000000;
+}
+h4.mempelai {
+    font-family: 'nama';
+    font-size: 20pt;
+    font-variant: inherit;
+    color: rgb(0, 0, 0);
+}
+h4.ot {
+    font-family: 'wedding';
+    font-size: 20pt;
+    font-variant: inherit;
+    color: rgb(0, 0, 0);
+}
+h4.wedding {
+    font-family: 'wedding';
+    font-size: 40pt;
+    font-variant: inherit;
+    color: rgb(0, 0, 0);
+}
+.card-nav {
+    position: absolute;
+    width: 350px;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    min-height: 50px;
+    top: 630px;
+}
+
+.foto {
+    margin-top: 15px;
+}
+
+.bg {
+    margin-top: -300px;
+}
+
+.card-nav .center {
+    align-content: center;
+}
+.scrollable {
+    overflow-y: auto;
+    max-height: 600px;
+}
+
+.scrollable-ucapan {
+    overflow-y: auto;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.table thead tr th,
+.table tbody tr td {
+    border: none;
+}
+#image1 {
+    border: 3px solid #85BF98;
+    padding: 0;
+}
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: rgb(255, 255, 255);
+}
+
+.preloader .loading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font: 14px arial;
+}
